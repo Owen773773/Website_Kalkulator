@@ -60,9 +60,8 @@ function resetScreen() {
                     else {
                         doOperation(getTextButton, Number(numberDisplay));
                     }
-                    numberDisplay = "";
                 }
-
+                numberDisplay = "";
             }
             else { //number
                 numberDisplay += getTextButton;
